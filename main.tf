@@ -226,7 +226,7 @@ resource "aws_acm_certificate" "demo" {
 }
 
 resource "aws_route53_zone" "demo" {
-  name = "sonalake.com"  # Replace with your domain
+  name = "sonalake.com"
 }
 
 resource "aws_route53_record" "demo_cert_validation" {
